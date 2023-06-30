@@ -1,6 +1,7 @@
 # ANN-through-Quantisation
 Approximate Nearest Neighbour search through product quantisation of the vectors.
 
+This repo is for learning and experimentation purposes.
 Clone the repo:
 ```
 git clone https://github.com/C-Ritam98/ANN-through-Quantisation.git
