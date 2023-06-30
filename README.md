@@ -1,8 +1,19 @@
 # ANN-through-Quantisation
 Approximate Nearest Neighbour search through product quantisation of the vectors.
 
+Clone the repo:
+```
+git clone https://github.com/C-Ritam98/ANN-through-Quantisation.git
+```
+Install dependencies:
+```
+cd ANN-through-Quantisation
+pip3 install -r requirements.txt
+```
 Number of clusters = 256 [config.py]
+
 Number of subspaces = 10 [config.py]
+
 Run the server.py file:
 ```
 python3 server.py
