@@ -38,4 +38,4 @@ The size consumed by the vectors : 28516128
 [INFO] K-means clusters computation done !!
 The size consumed by the quantised vectors : 128
 ```
-Clearly, after quantisation the size reduces from 28516128 Bytes to 129 Bytes, which is 222782x reduction in size.
+Clearly, after quantisation the size reduces from 28516128 Bytes to 128 Bytes, which is 222782x reduction in size.
