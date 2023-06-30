@@ -62,7 +62,7 @@ def KNN():
 
 if __name__ == '__main__':
 
-    # print(api.load("20-newsgroups", return_path=True)) 
+    print(api.load("20-newsgroups", return_path=True)) 
     corpus = api.load('text8')  # download the corpus and return it opened as an iterable
     w2v_model = Word2Vec(corpus)  # train a model from the corpus
     
