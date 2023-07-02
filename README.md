@@ -40,3 +40,7 @@ The size consumed by the vectors : 28516128
 The size consumed by the quantised vectors : 128
 ```
 Clearly, after quantisation the size reduces from 28516128 Bytes to 128 Bytes, which is 222782x reduction in size.
+
+Test the goodness of Nearest Neighbours and the latency at the following endpoints:\n
+ANN: http://localhost:5000/ann?query=car&top_k=10
+KNN: http://localhost:5000/knn?query=car&top_k=10
